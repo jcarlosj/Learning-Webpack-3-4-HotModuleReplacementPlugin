@@ -4,7 +4,7 @@
   "description": "Webpack - Hot Module Replacement",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack "
   },
   "keywords": [
     "webpack",
@@ -16,6 +16,7 @@
     "css-loader": "^1.0.0",
     "style-loader": "^0.21.0",
     "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.5"
   }
 }
